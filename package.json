@@ -1,0 +1,17 @@
+{
+  "name": "advanced-discord.js-template",
+  "version": "0.0.1",
+  "description": "A discord.js bot template",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "discord",
+    "discord.js"
+  ]
+}
