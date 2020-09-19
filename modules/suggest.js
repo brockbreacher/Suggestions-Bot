@@ -2,6 +2,8 @@ const { RichEmbed } = require("discord.js");
 
 exports.run = async (client, message, args) => {
 
+    const settings = require('./settings.json');
+    
     const sayMessage = args.join(" ");
 
     
