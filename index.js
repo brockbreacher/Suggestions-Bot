@@ -14,9 +14,9 @@ function* InfiniteGenerator(array) {
 }
 
 client.on('ready', () => {
-    // console.log("change this part") // needed for startup i think
+     console.log("change this part") // needed for startup i think
 	const statuses = [
-		() => ['WATCHING', `People Type !help`],
+		() => ['WATCHING', `People Type 'settings.prefix'!help`],
 		() => ['WATCHING', `${client.users.size} Members`],
 	];
 
