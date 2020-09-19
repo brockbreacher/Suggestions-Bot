@@ -18,7 +18,7 @@ exports.run = async (client, message, args) => {
 
     
 
-    const sentEmbed = await client.channels.get("756734026919837728").send(embed);
+    const sentEmbed = await client.channels.get(settings.channel).send(embed);
 
     await sentEmbed.react("👍");
 
