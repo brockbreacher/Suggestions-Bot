@@ -1,1 +1,1 @@
-# advanced-discord.js-template
+# Suggestions-Bot
